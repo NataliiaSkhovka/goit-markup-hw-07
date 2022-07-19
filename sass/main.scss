@@ -1,5 +1,27 @@
 @import "./utils/vars";
+@import "./utils/visualy-heden";
+@import "./utils/placeholder";
+
 @import "./base/common";
 @import "./base/reset";
+@import "./base/cards-set";
+@import "./base/module";
+
 @import "./components/buttons";
+@import "./components/container";
+@import "./components/section";
+@import "./components/logo";
+@import "./components/socials";
+@import "./components/text-title";
+@import "./components/overlay";
+@import "./components/form/module";
+@import "./components/modal/module";
+
 @import "./layouts/header";
+@import "./layouts/hero";
+@import "./layouts/benefits";
+@import "./layouts/about";
+@import "./layouts/team";
+@import "./layouts/clients";
+@import "./layouts/portfolio";
+@import "./layouts/footer";
