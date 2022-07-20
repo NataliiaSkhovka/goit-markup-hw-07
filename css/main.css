@@ -170,7 +170,7 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  width: 1200px;
+  max-width: 1600px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -179,7 +179,6 @@ img {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  width: 1200px;
 }
 
 .logo {
@@ -718,7 +717,7 @@ img {
 
 .footer {
   background-color: #2f303a;
-  width: 1200px;
+  max-width: 1600px;
   padding: 60px 0;
   display: -webkit-box;
   display: -ms-flexbox;
