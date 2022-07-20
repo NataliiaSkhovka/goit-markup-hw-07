@@ -179,6 +179,7 @@ img {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+  width: 1200px;
 }
 
 .logo {
@@ -383,11 +384,9 @@ img {
 }
 
 .header {
+  width: 1200px;
   outline: 1px solid #eeeeee;
   background-color: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -497,7 +496,7 @@ img {
   background-color: #2f303a;
   text-align: center;
   padding: 200px 0;
-  max-width: 1600px;
+  width: 1200px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
