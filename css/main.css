@@ -73,26 +73,6 @@ img {
   padding: 0;
 }
 
-/*сетка*/
-.cards-set {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin-right: -30px;
-  margin-bottom: -30px;
-}
-
-.cards-set__item {
-  background-color: var(--primery-white-color);
-  border: 1px solid #eeeeee;
-  margin-right: 30px;
-  margin-bottom: 30px;
-  -ms-flex-preferred-size: calc((100% - 90px) / 3);
-      flex-basis: calc((100% - 90px) / 3);
-}
-
 .btn {
   min-width: 200px;
   height: 50px;
@@ -170,7 +150,7 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  max-width: 1600px;
+  width: 1200px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -339,6 +319,26 @@ img {
   cursor: pointer;
 }
 
+/*сетка*/
+.cards-set {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-right: -30px;
+  margin-bottom: -30px;
+}
+
+.cards-set__item {
+  background-color: var(--primery-white-color);
+  border: 1px solid #eeeeee;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  -ms-flex-preferred-size: calc((100% - 90px) / 3);
+      flex-basis: calc((100% - 90px) / 3);
+}
+
 .footer-form {
   margin-left: 93px;
 }
@@ -383,7 +383,7 @@ img {
 }
 
 .header {
-  max-width: 1600px;
+  width: 1200px;
   outline: 1px solid #eeeeee;
   background-color: #ffffff;
   -webkit-box-align: center;
@@ -500,7 +500,7 @@ img {
   background-color: #2f303a;
   text-align: center;
   padding: 200px 0;
-  max-width: 1600px;
+  width: 1200px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -567,7 +567,6 @@ img {
   color: var(--main-text-color);
 }
 
-/*about*/
 .about {
   padding-top: 0;
 }
@@ -717,7 +716,7 @@ img {
 
 .footer {
   background-color: #2f303a;
-  max-width: 1600px;
+  width: 1200px;
   padding: 60px 0;
   display: -webkit-box;
   display: -ms-flexbox;
