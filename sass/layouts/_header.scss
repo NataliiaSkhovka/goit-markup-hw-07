@@ -71,6 +71,7 @@
   transition: color 250ms var(--timing-function);
 
   &__link {
+    flex: aling-items;
     color: var(--main-text-color);
   }
   &--item:not(:last-child) {

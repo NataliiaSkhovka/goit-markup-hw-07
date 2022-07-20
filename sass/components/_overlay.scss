@@ -9,9 +9,14 @@
     }
    &--port {
      
-      background-color: rgba(33, 150, 243, 0.9);
-      transform: translateY(100%);
-      transition: transform 250ms var(--timing-function);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 150, 243, 0.9);
+    transform: translateY(100%);
+    transition: transform 250ms var(--timing-function);
+  
     }
     &--title {
       position: absolute;
