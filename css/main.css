@@ -383,7 +383,7 @@ img {
 }
 
 .header {
-  width: 1200px;
+  max-width: 1600px;
   outline: 1px solid #eeeeee;
   background-color: #ffffff;
   -webkit-box-align: center;
@@ -500,7 +500,7 @@ img {
   background-color: #2f303a;
   text-align: center;
   padding: 200px 0;
-  width: 1200px;
+  max-width: 1600px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
