@@ -145,7 +145,7 @@ img {
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-.port-btn .active {
+.port-btn.active {
   color: var(--primery-white-color);
   background-color: var(--accent-color);
 }
@@ -310,7 +310,7 @@ img {
   transition: transform 250ms var(--timing-function);
   transition: transform 250ms var(--timing-function), -webkit-transform 250ms var(--timing-function);
 }
-.overlaytitle {
+.overlay--title {
   position: absolute;
   font-weight: 400;
   font-size: 18px;
@@ -330,12 +330,12 @@ img {
   transition: transform 250ms var(--timing-function), -webkit-transform 250ms var(--timing-function);
 }
 
-.port-cards__link:hover .overlay--port {
+.portfolio__link:hover .overlay--port {
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
 
-.port-cards__link:hover .overlay--title {
+.portfolio__link:hover .overlay--title {
   opacity: 1;
   cursor: pointer;
 }

@@ -13,7 +13,7 @@
       transform: translateY(100%);
       transition: transform 250ms var(--timing-function);
     }
-    &title {
+    &--title {
       position: absolute;
       font-weight: 400;
       font-size: 18px;
@@ -31,10 +31,10 @@
     }
  }
  
- .port-cards__link:hover .overlay--port {
+ .portfolio__link:hover .overlay--port {
    transform: translateY(0);
  }
- .port-cards__link:hover .overlay--title {
+ .portfolio__link:hover .overlay--title {
    opacity: 1;
    cursor: pointer;
  }
