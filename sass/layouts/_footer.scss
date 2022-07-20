@@ -1,5 +1,6 @@
 .footer {
    background-color: #2f303a;
+   width: 1200px;
    padding: 60px 0;
    display: flex;
    color: var(--primery-white-color);
@@ -12,7 +13,8 @@
  
  .footer-address--adr{
    color: var(--primery-white-color);
-
+ }
+.footer-address{
    &__link {
       line-height: 1.71;
       color: rgba(255, 255, 255, 0.6);
@@ -30,4 +32,14 @@
  
  .address {
    font-style: normal;
+ }
+ .footer-social__list{
+  display: flex;
+ }
+ .footer-social__item{
+  margin-top: 20px;
+ }
+ 
+ .footer-social__item:not(:last-child){
+  margin-right: 10px;;
  }
