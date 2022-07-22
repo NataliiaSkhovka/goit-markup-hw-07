@@ -672,7 +672,7 @@ textarea {
   background-color: #2f303a;
   text-align: center;
   padding: 200px 0;
-  width: 1200px;
+  width: 1600px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -698,7 +698,6 @@ textarea {
 }
 
 .header {
-  width: 1200px;
   outline: 1px solid #eeeeee;
   background-color: #ffffff;
   -webkit-box-align: center;
@@ -793,6 +792,12 @@ textarea {
   transition: color 250ms var(--timing-function);
 }
 .header-contact__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-flex: aling-items;
       -ms-flex: aling-items;
           flex: aling-items;
@@ -1003,12 +1008,7 @@ textarea {
 
 .footer {
   background-color: #2f303a;
-  width: 1200px;
   padding: 60px 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  color: var(--primery-white-color);
 }
 .footer__container {
   display: -webkit-box;

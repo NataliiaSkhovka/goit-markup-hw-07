@@ -1,5 +1,5 @@
 .header {
-  width: 1200px;
+ 
   outline: 1px solid #eeeeee;
   background-color: #ffffff;
 
@@ -71,6 +71,8 @@
   transition: color 250ms var(--timing-function);
 
   &__link {
+    display: flex;
+    align-items: center;
     flex: aling-items;
     color: var(--main-text-color);
   }
