@@ -234,6 +234,7 @@ img {
 
 .footer-social--thumb {
   margin-left: 70px;
+  color: var(--primery-white-color);
 }
 .footer-social--thumb__title {
   font-size: 14px;
